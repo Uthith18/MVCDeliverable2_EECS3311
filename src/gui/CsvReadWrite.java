@@ -17,7 +17,15 @@ import java.io.*;
 
 	public class CsvReadWrite {
 		
-	    private String filePath = "Users.csv";
+	    public String getFilePath() {
+			return filePath;
+		}
+
+		public void setFilePath(String filePath) {
+			this.filePath = filePath;
+		}
+
+		private String filePath = "Users.csv";
 
 	    
 	    
